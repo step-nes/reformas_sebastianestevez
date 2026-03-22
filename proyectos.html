@@ -1,70 +1,115 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Stephany Estevez, Nadine Mota">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<title>Proyectos - Reformas Sebastian Estevez</title>
+	<title>Reformas Sebastian Estevez</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-	<header>
-		<div class="header-pc-uno">
-			<div class="logo-pc-nav">
+<!-- MENU MOVIL container -->
+<div class="menu_container">
+	<!-- Bars menu button -->
+	<svg class="bars" xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 640 640"><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg>
+	<!-- Fin Bars menu button -->
+	<nav class="menu_movil">
+		<div class="header_de_menu">
+			<div class="logo_menu_container">
+				<img src="./img/logo/reformas-sebastian-estevez-logo.png" alt="Logo de Reformas Sebastian Estevez" class="logo_en_menu">
+				<svg class="times" xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 640 640"><path d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"/></svg>
+			</div>
+		</div> <!-- fin header_de_menu -->
+		<ul class="lista_menu">
+			<li><a href="./index.html">Inicio</a></li>
+			<li><a href="./proyectos.html">Proyectos</a></li>
+			<li><a href="./aboutus.html">About us</a></li>
+			<li><a href="./servicios.html">Servicios</a></li>
+		</ul> <!-- fin lista_menu -->
+	</nav> <!-- fin menu_movil -->
+</div> <!-- fin menu_container -->
+<!-- FIN MENU MOVIL -->
+<!-- HEADER -->
+<header>
+	<div class="header-pc-uno">
+		<div class="logo-pc-nav">
+			<img src="./img/logo/logo-reformas-peq.png" alt="Logo de Reformas Sebastian Estevez">
+		</div>
+	</div>
+	<div class="header-pc-dos">
+		<h1>Titulo</h1>
+		<h2>Subtitulo</h2>
+	</div>
+	<video src="./multimedia/rse.mp4" poster="./multimedia/poster-header.png" loop autoplay muted></video>
+</header>
+<!-- FIN HEADER -->
+<!-- MAIN -->
+<main class="main main_proyectos">
+	<section class="section_proyectos_uno antes_despues_section">
+		<div class="antes_despues antes_main">
+			<h3>ANTES</h3>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed explicabo maxime suscipit aliquid laborum quisquam impedit, repudiandae aperiam accusantium ex.</p>
+		</div>
+		<div class="antes_despues despues_main">
+			<h3>DESPUES</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo illum, exercitationem adipisci animi possimus soluta dolorum? Nihil, perferendis aspernatur!</p>
+		</div>
+	</section>
+	<section class="section_proyectos_dos proyectos_section">
+		<h3>Subtitulo</h3>
+		<div class="proyectitos_container">
+			<div>
 				<img src="" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?</p>
 			</div>
-			<div class="header-pc-nav">
-				<nav>
-					<ul>
-						<li><a href="">Proyectos</a></li>
-						<li><a href="">About us</a></li>
-						<li><a href="">Servicios</a></li>
-					</ul>
-				</nav>
+			<div>
+				<img src="" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?</p>
 			</div>
-		</div>
-		<div class="header-pc-dos">
-			<h1></h1>
-			<h2></h2>
-		</div>
-	</header>
-	<main class="main main_proyectos">
-		<div class="principal_proyectos principal_proyectos_uno">
-			<div class="proyectos_antes_container">
-				<h3></h3>
-				<div></div>
+			<div>
+				<img src="" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?</p>
 			</div>
-			<div class="proyectos_despues_container">
-				<h3></h3>
-				<div></div>
+			<div>
+				<img src="" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?</p>
+			</div>
+			<div>
+				<img src="" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?</p>
+			</div>
+			<div>
+				<img src="" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?</p>
 			</div>
 		</div>
-		<div class="principal_proyectos principal_proyectos_dos">
-			<h3></h3>
-			<div class="proyectos_proyectos_padre">
-				<div>
-					<div class="proyectos_proyects_hijos proyectos_proyects1"></div>
-					<div class="proyectos_proyects_hijos proyectos_proyects2"></div>
-				</div>
-				<div>
-					<div class="proyectos_proyects_hijos proyectos_proyects3"></div>
-					<div class="proyectos_proyects_hijos proyectos_proyects4"></div>
-				</div>
-			</div>
+	</section> <!-- fin principal_home principal_home_dos -->
+</main> <!-- fin main main_home -->
+<footer>
+	<div class="header_del_footer para_flex">
+		<div class="logo_de_footer">
+			<img src="./img/logo/logo-footer.png" alt="Logo de Reformas Sebastian Estevez" class="logo_footer">
 		</div>
-	</main>
-	<footer>
 		<div class="redes_sociales_footer">
-			<a href=""></a>
-			<a href=""></a>
-			<a href=""></a>
-		</div>
-		<h4></h4>
-		<div>
-			
-		</div>
-		<p><small></small></p>
-	</footer>
+			<a href="" target="_blank" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+		</div> <!-- fin redes_sociales_footer -->
+	</div>
+	<div class="texto_footer">
+		<h4>Subtitulo</h4>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo hic distinctio iusto ipsam! Laboriosam, quas vel facere quae vero suscipit ratione reprehenderit deleniti pariatur voluptatibus tempora, unde placeat nisi consectetur!</p>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, explicabo. Aliquid aperiam consequatur iste quod id eaque optio est omnis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, maxime.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est molestias libero accusantium accusamus, dolores temporibus nulla. Necessitatibus, voluptatibus delectus nesciunt adipisci earum nihil iure velit quidem ratione, voluptatum dicta.</p>
+	</div>
+	<div class="copy_content">
+		<p><small>Copyright &copy; 2026 | Reformas Sebastian Estevez</small></p>
+		<p><small>Diseñadora Gráfica - Nadine Mota</small> | <small>Web Developer - Stephany Estevez</small></p>
+	</div>
+</footer>
+<div class="boton_arriba"><i class="fa fa-angle-up"></i></div>
+<script src="./js/script.js"></script>
 </body>
 </html>
