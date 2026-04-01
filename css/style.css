@@ -30,7 +30,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    
 }
 *,
 *::after,
@@ -54,7 +54,7 @@ a {
 /**************************************/
 header {
     position: relative;
-    padding: 180px;
+    padding: 300px 180px;
     text-align: center;
     overflow: hidden;
     background-color: #0007;
@@ -172,17 +172,21 @@ div.servicios_pack_main > h3 {
 .paquetes_pack {
     background-color: var(--color-principal);
 }
-div.principal_home_dos {
+section.principal_home_dos {
     padding: 20px;
 }
 .contenedor_sub_text > h3 {
     padding: 10px;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 3.5rem;
+    font-weight: 400;
 }
 .contenedor_sub_text > p {
     padding: 10px;
+    font-size: 2.5rem;
+    font-weight: 300;
 }
+
 footer {
     background-color: var(--color-oscuro1);
     color: var(--color-claro);
