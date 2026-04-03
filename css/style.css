@@ -13,7 +13,6 @@
 /*************************************/
 /*** * * * PALETA DE COLORES * * * ***/
 /*************************************/
-
 :root {
     --color-oscuro1: #1d1d1b;
     --color-oscuro2: #2c2c3b;
@@ -150,16 +149,23 @@ nav > ul > li > a {
 /**************************************/
 /****** * * * * * MAIN * * * * * ******/
 /**************************************/
-section.principal_home_uno {
+/****** * * * SECCION UNO * * * *******/section.principal_home_uno {
     padding: 20px;
     background-color: var(--color-oscuro2);
 }
 div.servicios_pack_main {
+    position: relative;
     margin: 0 auto 0;
     width: 80%;
     height: auto;
     padding: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+div.servicios_pack_main:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index: 10;
 }
 div.servicios_pack_main > h3 {
     color: var(--color-claro);
@@ -171,17 +177,47 @@ div.servicios_pack_main > h3 {
 .reformas_pack {
     border: 3px solid #fff1;
     border-radius: 20px;
-    background-image: linear-gradient();
+    background-image: radial-gradient(circle at 50% 10%,rgba(220, 179, 62, 0.6) 0%,
+    rgba(220, 179, 62, 0.4) 20%,
+    rgba(220, 179, 62, 0.25) 35%,
+    rgba(220, 179, 62, 0.12) 50%,
+    rgba(220, 179, 62, 0.05) 65%,
+    transparent 80%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.07);
 }
 .paquetes_pack {
     border: 3px solid #fff1;
     border-radius: 20px;
-    background-image: linear-gradient();
+    background-image: radial-gradient(circle at center,rgba(122, 188, 94, 0.6) 0%,
+    rgba(122, 188, 94, 0.4) 20%,
+    rgba(122, 188, 94, 0.25) 35%,
+    rgba(122, 188, 94, 0.12) 50%,
+    rgba(122, 188, 94, 0.05) 65%,
+    transparent 80%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.07);
 }
 .limpieza_pack {
     border: 3px solid #fff1;
     border-radius: 20px;
-    background-image: linear-gradient();
+    background-image: radial-gradient(circle at 50% 90%,rgba(220, 179, 62, 0.6) 0%,
+    rgba(220, 179, 62, 0.4) 20%,
+    rgba(220, 179, 62, 0.25) 35%,
+    rgba(220, 179, 62, 0.12) 50%,
+    rgba(220, 179, 62, 0.05) 65%,
+    transparent 80%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.07);
 }
 /**************************************/
 /****** * * * SECCION DOS * * * *******/
@@ -206,6 +242,8 @@ footer {
     background-color: var(--color-oscuro1);
     color: var(--color-claro-opaco);
     padding: 40px 30px;
+    align-items: center;
+    text-align: center;
 }
 .fa-brands {
     color: var(--color-claro-opaco);
