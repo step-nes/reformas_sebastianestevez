@@ -18,6 +18,7 @@
     --color-oscuro1: #1d1d1b;
     --color-oscuro2: #2c2c3b;
     --color-claro: #fff;
+    --color-claro-opaco: #fff8;
     --color-principal: #7abc5e;
     --color-secundario: #dcb33e;
     --color-hover-principal:
@@ -149,31 +150,43 @@ nav > ul > li > a {
 /**************************************/
 /****** * * * * * MAIN * * * * * ******/
 /**************************************/
-main > .principal_home_uno {
+section.principal_home_uno {
     padding: 20px;
     background-color: var(--color-oscuro2);
 }
 div.servicios_pack_main {
-    border: #1d1d1b 2px solid;
     margin: 0 auto 0;
     width: 80%;
     height: auto;
-    padding: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
 }
 div.servicios_pack_main > h3 {
-    color: var(--color-oscuro2);
+    color: var(--color-claro);
     font-size: 2.5rem;
+    font-weight: 100;
     margin-bottom: 20px;
     text-align: center;
 }
-.reformas_pack, .limpieza_pack {
-    background-color: var(--color-secundario);
+.reformas_pack {
+    border: 3px solid #fff1;
+    border-radius: 20px;
+    background-image: linear-gradient();
 }
 .paquetes_pack {
-    background-color: var(--color-principal);
+    border: 3px solid #fff1;
+    border-radius: 20px;
+    background-image: linear-gradient();
 }
+.limpieza_pack {
+    border: 3px solid #fff1;
+    border-radius: 20px;
+    background-image: linear-gradient();
+}
+/**************************************/
+/****** * * * SECCION DOS * * * *******/
 section.principal_home_dos {
-    padding: 20px;
+    padding: 50px 30px;
 }
 .contenedor_sub_text > h3 {
     padding: 10px;
@@ -186,15 +199,19 @@ section.principal_home_dos {
     font-size: 2.5rem;
     font-weight: 300;
 }
-
+/**************************************/
+/****** * * * * * FOOTER * * * * ******/
+/**************************************/
 footer {
     background-color: var(--color-oscuro1);
-    color: var(--color-claro);
-    padding: 30px 30px 10px 30px;
+    color: var(--color-claro-opaco);
+    padding: 40px 30px;
 }
-.header_del_footer {
-    justify-content: space-between;
-    align-items: center;
+.fa-brands {
+    color: var(--color-claro-opaco);
+}
+.logo_footer_container {
+    text-align: center;
 }
 .logo_footer {
     width: 150px;
