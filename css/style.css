@@ -62,8 +62,8 @@ header {
 div.logo-pc-nav img {
     width: 120px;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 20px;
+    left: 20px;
 }
 video {
     position: absolute;
