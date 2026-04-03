@@ -245,6 +245,9 @@ footer {
     align-items: center;
     text-align: center;
 }
+footer > div {
+    margin-bottom: 20px;
+}
 .fa-brands {
     color: var(--color-claro-opaco);
 }
