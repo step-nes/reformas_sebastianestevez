@@ -339,7 +339,7 @@ footer > div {
 /*****************************/
 /****************************************/
 .section_proyectos_dos {
-    padding: 50px 15px;
+    padding: 50px 10px;
     background-color: var(--color-claro);
 }
 .section_proyectos_dos > h3 {
@@ -363,20 +363,21 @@ ul.todos_proyectos_container {
 .proyectos_par p {
     max-width: 170px;
 }
-.img_proyectos {
-    max-width: 160px;
-    max-height: 150px;
-}
-.img_proyectos img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-.proyecto_foto_info {
+.proyecto_foto_info_container {
     display: flex;
     gap: 20px;
     flex-direction: column;
 }
+.img_proyectos_container {
+    max-width: 150px;
+    max-height: 140px;
+}
+.img_proyectos_container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 
 
 
