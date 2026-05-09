@@ -58,6 +58,7 @@ header {
     text-align: center;
     overflow: hidden;
     background-color: #0007;
+    min-height: 100vh;
 }
 div.logo-pc-nav img {
     width: 120px;
@@ -150,7 +151,7 @@ nav > ul > li > a {
 /****** * * * * * MAIN * * * * * ******/
 /**************************************/
 /****** * * * SECCION UNO * * * *******/section.principal_home_uno {
-    padding: 20px;
+    padding: 60px;
     background-color: var(--color-oscuro2);
 }
 div.servicios_pack_main {
@@ -307,4 +308,37 @@ div.boton_arriba i {
 }
 div.boton_arriba:hover > i {
     color: var(--color-principal);
+}
+@media (min-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
