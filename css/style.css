@@ -339,7 +339,7 @@ footer > div {
 /*****************************/
 /****************************************/
 .section_proyectos_dos {
-    padding: 50px 20px;
+    padding: 50px 15px;
     background-color: var(--color-claro);
 }
 .section_proyectos_dos > h3 {
@@ -357,7 +357,7 @@ ul.todos_proyectos_container {
 }
 .proyectos_par {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
 }
 .proyectos_par p {
     max-width: 170px;
