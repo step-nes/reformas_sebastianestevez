@@ -30,6 +30,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid orange;
 }
 *,
 *::after,
@@ -53,10 +54,10 @@ a {
 /**************************************/
 header {
     position: relative;
-    padding: 300px 180px;
+    padding: 300px 30px;
     text-align: center;
     overflow: hidden;
-    background-color: #0007;
+    background-color: #fff5;
     min-height: 100vh;
 }
 div.logo-pc-nav img {
@@ -64,6 +65,17 @@ div.logo-pc-nav img {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+.header_titulo h1 {
+    font-size: 3rem;
+    color: var(--color-oscuro2);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.header_titulo h2 {
+    font-size: 1.4rem;
+    color: var(--color-oscuro2);
+    font-weight: 300;
 }
 video {
     position: absolute;
@@ -146,8 +158,10 @@ nav > ul > li > a {
     color: var(--color-claro);
     font-size: 1.1rem;
 }
-/**************************************/
-/****** * * * * * MAIN * * * * * ******/
+/****************************************/
+/******* * * * * * MAIN * * * * * *******/
+/****************************************/
+
 /**************************************/
 /****** * * * SECCION UNO * * * *******/
 section.principal_home_uno {
@@ -227,16 +241,17 @@ div.servicios_pack_main > h3 {
 /**************************************/
 section.principal_home_dos {
     padding: 50px 30px;
+    background-color: var(--color-claro);
 }
 .contenedor_sub_text > h3 {
     padding: 10px;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
 }
 .contenedor_sub_text > p {
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     margin-bottom: 10px;
 }
@@ -305,7 +320,7 @@ footer > div {
     font-size: 3rem;
 }
 /**************************************/
-/************ LEGAL *******************/
+/************** LEGAL *****************/
 .footer_legal a {
     text-decoration: none;
     color: var(--color-claro-opaco);
