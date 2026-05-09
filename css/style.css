@@ -359,12 +359,15 @@ footer > div {
     gap: 50px;
 }
 .proyectos_par p {
-    display: inline-block;
     max-width: 150px;
 }
-.proyectos_par img {
-    max-height: 150px;
+.img_proyectos {
     max-width: 150px;
+    max-height: 150px;
+}
+.img_proyectos img {
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 .proyecto_foto_info {
