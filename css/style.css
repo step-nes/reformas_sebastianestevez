@@ -149,8 +149,9 @@ nav > ul > li > a {
 /**************************************/
 /****** * * * * * MAIN * * * * * ******/
 /**************************************/
-/****** * * * SECCION UNO * * * *******/section.principal_home_uno {
-    padding: 60px;
+/****** * * * SECCION UNO * * * *******/
+section.principal_home_uno {
+    padding: 60px 30px;
     background-color: var(--color-oscuro2);
 }
 div.servicios_pack_main {
@@ -158,7 +159,7 @@ div.servicios_pack_main {
     margin: 0 auto 0;
     width: 80%;
     height: auto;
-    padding: 50px;
+    padding: 50px 30px;
     margin-bottom: 15px;
     transition: .5s;
     color: var(--color-claro-opaco);
