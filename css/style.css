@@ -30,7 +30,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 *,
 *::after,
@@ -58,7 +57,7 @@ header {
     text-align: center;
     overflow: hidden;
     background-color: #0007;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 div.logo-pc-nav img {
     width: 120px;
