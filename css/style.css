@@ -162,6 +162,8 @@ div.servicios_pack_main {
     padding: 50px;
     margin-bottom: 15px;
     transition: .5s;
+    color: var(--color-claro-opaco);
+    font-weight: 400;
 }
 div.servicios_pack_main:hover {
     transform: scale(1.2);
@@ -222,6 +224,7 @@ div.servicios_pack_main > h3 {
 }
 /**************************************/
 /****** * * * SECCION DOS * * * *******/
+/**************************************/
 section.principal_home_dos {
     padding: 50px 30px;
 }
@@ -233,12 +236,15 @@ section.principal_home_dos {
 }
 .contenedor_sub_text > p {
     padding: 10px;
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 10px;
 }
 /**************************************/
-/****** * * * * * FOOTER * * * * ******/
+/**** * * * * * FOOTER * * * * ********/
 /**************************************/
+/**************************************/
+/********** General y logo ************/
 footer {
     background-color: var(--color-oscuro1);
     color: var(--color-claro-opaco);
@@ -249,9 +255,6 @@ footer {
 footer > div {
     margin-bottom: 20px;
 }
-.fa-brands {
-    color: var(--color-claro-opaco);
-}
 .logo_footer_container {
     text-align: center;
 }
@@ -260,22 +263,55 @@ footer > div {
     margin: auto;
     text-align: center;
 }
+.descripcion_footer > p {
+    padding: 10px;
+}
+/**************************************/
+/************ MENU FOOTER *************/
+.menu_footer > p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.menu_footer > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu_footer a {
+    text-decoration: none;
+    color: var(--color-claro-opaco);
+    font-size: 1.1rem;
+}
+/**************************************/
+/************** CONTACTO **************/
+.contacto_footer a {
+    text-decoration: none;
+    color: var(--color-claro-opaco);
+}
+/**************************************/
+/*********** REDES SOCIALES ***********/
+.redes_sociales_footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 .redes_sociales_footer a {
     display: block;
 }
 .fa-brands {
-    font-size: 2rem;
+    color: var(--color-claro-opaco);
+    font-size: 3rem;
 }
-.texto_footer {
-    margin-bottom: 50px;
+/**************************************/
+/************ LEGAL *******************/
+.footer_legal a {
+    text-decoration: none;
+    color: var(--color-claro-opaco);
 }
-.texto_footer > h4 {
-    text-align: center;
-    padding: 10px;
-}
-.texto_footer > p {
-    padding: 10px;
-}
+
+
 
 
 
