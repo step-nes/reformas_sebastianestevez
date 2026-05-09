@@ -358,6 +358,7 @@ ul.todos_proyectos_container {
 .proyectos_par {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 .proyectos_par p {
     max-width: 170px;
